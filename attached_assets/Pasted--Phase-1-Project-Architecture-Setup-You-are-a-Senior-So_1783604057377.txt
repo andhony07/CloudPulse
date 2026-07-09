@@ -1,0 +1,93 @@
+# Phase 1 – Project Architecture Setup
+
+You are a Senior Software Architect and Senior Node.js Developer.
+
+Create only the architecture and project structure for the backend of the project.
+
+## Project Name
+
+AI-Powered Cloud-Based DevOps Monitoring Dashboard
+
+## Goal
+
+Set up a scalable, production-ready backend architecture using Clean Architecture principles. Do not implement business logic or application features in this phase.
+
+## Tech Stack
+
+* Node.js
+* Express.js
+* MongoDB (Mongoose)
+* Socket.IO
+* JWT Authentication
+* Docker-ready
+* REST API
+* MVC + Service + Repository Pattern
+
+## Tasks
+
+1. Initialize the Node.js project.
+2. Create the complete folder structure.
+3. Create all required placeholder files.
+4. Configure package.json with the required dependencies.
+5. Configure Express.
+6. Configure environment variable loading.
+7. Configure MongoDB connection.
+8. Configure global error handling.
+9. Configure middleware structure.
+10. Configure routing structure.
+11. Configure Socket.IO entry point.
+12. Add Docker support (Dockerfile only).
+13. Create README.md.
+14. Add .gitignore.
+15. Add .env.example.
+
+## Folder Structure
+
+backend/
+├── src/
+│ ├── config/
+│ ├── constants/
+│ ├── controllers/
+│ ├── middleware/
+│ ├── models/
+│ ├── repositories/
+│ ├── routes/
+│ ├── services/
+│ ├── sockets/
+│ ├── validators/
+│ ├── utils/
+│ ├── prompts/
+│ ├── providers/
+│ ├── ai/
+│ ├── database/
+│ ├── jobs/
+│ ├── events/
+│ ├── helpers/
+│ ├── dto/
+│ ├── interfaces/
+│ ├── types/
+│ ├── app.js
+│ └── server.js
+├── tests/
+├── .env.example
+├── package.json
+├── README.md
+└── Dockerfile
+
+## Important Rules
+
+* Do not implement authentication.
+* Do not implement APIs.
+* Do not implement AI features.
+* Do not create dashboard functionality.
+* Do not generate CRUD operations.
+* Only create the architecture and configuration.
+* Keep the code modular and production-ready.
+* Ensure the project runs successfully after `npm install` and `npm start`.
+
+At the end, provide:
+
+1. The final folder tree.
+2. The list of installed dependencies.
+3. Instructions to start the backend locally.
+4. Confirmation that Phase 1 is complete and ready for Phase 2.
